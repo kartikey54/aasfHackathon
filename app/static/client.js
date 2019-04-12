@@ -27,15 +27,15 @@ function analyze() {
             el('result-label').innerHTML = `Result = ${response['result']}`;
             if( response['result'] == 'samosa' )
             {
-                el('link-label').innerHTML = '/samosa.html';
+                el('link-label').innerHTML = 'https://swaggy-ka-swag.onrender.com/samosa.html';
             }
             else if( response['result'] == 'french_fries' )
             {
-                el('link-label').innerHTML = '/frenchfries.html';
+                el('link-label').innerHTML = 'https://swaggy-ka-swag.onrender.com/frenchfries.html';
             }
             else 
             {
-                el('link-label').innerHTML = '/couldntfind.html';
+                el('link-label').innerHTML = 'https://swaggy-ka-swag.onrender.com/couldntfind.html';
             }
             
         }
