@@ -1,0 +1,36 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <title>docshot</title>
+  <link rel='stylesheet' href='resources/reset.css' type='text/css'/>
+  <link rel='stylesheet' href='resources/edit.css' type='text/css'/>
+</head>
+<body>
+
+<div class='edit'>
+  <div id='base'></div>
+  <div class='image' id='cropped'>
+    <span class='mask'></span>
+    <div class='dimensions'></div>
+  </div>
+  <!-- <div class='image' id='popped'>
+    <div class='dimensions'></div>
+  </div> -->
+  <div id='toolbar'>
+    <a href='#save'>Done</a>
+    <a class='close' href='#close'>Cancel</a>
+  </div>
+</div>
+<div class='final'>
+  <img id='final' />
+  <div class='instructions' style="color: white;" id='myResult'>Waiting for response</div>
+  <div>
+  <div  style="color: white; align: center; text-align: center; margin: 5%" id='linkedPage'>If link exists</div>
+</div>
+</div>
+
+<script type='text/javascript' src='resources/jquery-1.6.2.min.js'></script>
+<script type='text/javascript' src='resources/jquery-ui-1.8.16.custom.js'></script>
+<script type='text/javascript' src='edit.js'></script>
+</body>
+</html>
